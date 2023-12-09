@@ -1,0 +1,165 @@
+#header{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+#nav{
+    margin-left: 870px;
+    margin-top: 10px;
+
+    
+
+}
+li{
+    display: inline; 
+    padding-inline-end: 50px;
+
+    font-size: 25px ;
+
+    color: white;
+    
+
+
+}
+.logo{
+    padding-top: 35px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+#content{
+    background-color: rgb(135, 137, 235);
+    height: 400px;
+}
+.content-1{
+    text-align: center;
+    padding-top: 50px;
+
+}
+.content-h1{
+    font-size: 50px;
+    color: white;
+}
+.content-p{
+    color: white;
+    font-size: 25px;
+}
+.button-co{
+    width: 150px;
+    height: 40px;
+    border: white;
+    border-radius: 2px ,2px ,2px ,5px;
+    color: blue;
+    font-size: 25px;
+}
+.div-1{
+    background-color: silver;
+    width: 200px;
+    height: 150px;
+    margin-left: 70px;
+    padding: 20px;
+    margin-top: 50px;
+    font-style: bold;
+}
+.flex-h{
+    padding-left: 50px;
+}
+#flex{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    
+
+}
+#about{
+    background-color: rgb(192, 192, 192);
+    height: 400px;;
+    
+}
+.div-about{
+    text-align: center;
+    padding-top: 50px;
+}
+.div-h{
+    font-size: 50px;
+}
+.div-p{
+    font-size: 20px;
+}
+/* Contact */
+.contact {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+  }
+  form {
+    margin-top: 40px;
+  }
+  .contact input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 0px 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .contact label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .contact-btn {
+    max-width: 200px;
+    margin: auto;
+    color: var(--sec);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    background: transparent;
+    border-radius: 10px;
+  }
+  @media (max-width: 768px) {
+    .menu ul li a {
+      font-size: 14px;
+    }
+    .menu ul li {
+      margin: 0px 8px;
+    }
+    .brand-logo h2 {
+      font-size: 22px;
+    }
+    .header-container {
+      padding: 0px 15px;
+    }
+  
+    .hero {
+      height: 100%;
+      padding: 60px 10px;
+    }
+    h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 13px;
+    }
+    .about .container {
+      height: 100%;
+      padding: 50px 10px;
+    }
+    .contact label {
+      font-size: 14px;
+    }
+    .btn {
+      font-size: 14px;
+    }
+  }
